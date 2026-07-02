@@ -29,3 +29,17 @@ int main() {
             std::cout << "The path was empty.\n";
             score += 2;
         }
+
+        std::cout << "Current score: " << score << "\n";
+    }
+
+    std::cout << "\nAdventure complete!\n";
+    std::cout << "Final score: " << score << "\n";
+
+    if (score >= 40)
+        std::cout << "You escaped the enchanted forest!\n";
+    else
+        std::cout << "Try another journey.\n";
+
+    return 0;
+}
